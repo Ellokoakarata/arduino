@@ -119,14 +119,14 @@ void handleMotor() {
 
 void setColorByIndex(int colorIndex) {
   switch (colorIndex) {
-    case 0: setColor(255, 0, 0); break;    // Rojo
-    case 1: setColor(0, 255, 0); break;    // Verde
-    case 2: setColor(0, 0, 255); break;    // Azul
-    case 3: setColor(255, 255, 0); break;  // Amarillo
-    case 4: setColor(255, 0, 255); break;  // Magenta
-    case 5: setColor(0, 255, 255); break;  // Cian
-    case 6: setColor(255, 128, 0); break;  // Naranja
-    case 7: setColor(128, 0, 128); break;  // Púrpura
+    case 0: setColor(255, 0, 0); break;    
+    case 1: setColor(0, 255, 0); break;    
+    case 2: setColor(0, 0, 255); break;    
+    case 3: setColor(255, 255, 0); break;  
+    case 4: setColor(255, 0, 255); break;  
+    case 5: setColor(0, 255, 255); break;  
+    case 6: setColor(255, 128, 0); break;  
+    case 7: setColor(128, 0, 128); break;  
     default: setColor(0, 0, 0); break;     // Apagado si el índice está fuera de rango
   }
 }
